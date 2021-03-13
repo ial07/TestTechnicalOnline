@@ -1,0 +1,16 @@
+.body {
+    padding: 15px 20px;
+    margin-top: 10px;
+    background-color: bisque;
+    width: 70%;
+}
+
+.btn{
+    background-color: rgb(65, 225, 225);
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin-left: 500px;
+}

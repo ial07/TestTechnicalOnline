@@ -1,0 +1,66 @@
+body {
+    font-family: 'Source Sans Pro';
+    background: rgb(255, 255, 255);
+    margin: 0;
+    color: rgb(0, 0, 0);
+}
+
+a {
+    text-decoration: none;
+    background-color: rgb(85, 184, 241);
+    color: rgb(255, 255, 255);
+    font-style: 16px;
+    font-weight: 700;
+padding: 4px;
+border-radius: 5px;
+}
+
+
+
+footer {
+    background: chocolate;
+}
+
+ul {
+    display: grid;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(2, auto);
+}
+
+ul li {
+    padding: 1em;
+    color: #E98A8A;
+    padding: 10px 0 30px;
+    background: #fff;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    	box-shadow: 0 0 0 14px #4d41395e;
+    	transform: scale(0.9);
+}
+
+ul li img {
+    	display: inline-block;
+    	margin-bottom: 50px;
+    	/*background:#ff00ac;*/
+    	position: relative;
+    	z-index: 1;
+}
+
+
+ul li span {
+    display: block;
+    font-size: 26px;
+    margin-bottom: 1em;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 66% auto;
+    padding: 4em 1em;
+}
